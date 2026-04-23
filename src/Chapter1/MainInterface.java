@@ -15,7 +15,7 @@ public class MainInterface {
 	public static void main(String[] args) {
 		AdvancedAdderInterface myAdvancedAdderInterface = new AdvancedAdderInterface();
 		
-		int result = myAdvancedAdderInterface.add(6, 7);
+		int result = myAdvancedAdderInterface.add(2, 4);
 		
 		System.out.println("Sum of numbers: " +result);
 	}
