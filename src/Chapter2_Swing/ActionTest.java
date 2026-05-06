@@ -49,6 +49,7 @@ public class ActionTest extends JFrame {
 			int num = 0; // hint: This is Global
 			public void actionPerformed(ActionEvent e) {
 				
+//				int num = 0;  hint: This is Local
 				num++;
 				System.out.println("Button has been pressed "+ num +" times");
 
