@@ -15,7 +15,7 @@ public class ListenerObject {
 		JButton jb = new JButton("Click");
 		
 		// Listener Object Creation		
-		// jb.addActionListener(Listener Object); // Standard EH
+		// jb.addActionListener(Listener Object); 
 		
 		ActionListener alobj = new ActionListener() {
 	
@@ -24,7 +24,7 @@ public class ListenerObject {
 			}
 		};
 		
-		jb.addActionListener(alobj);
+		jb.addActionListener(alobj); // Standard EH
 		
 		jf.setSize(500, 500);
 		jb.setBounds(20, 20, 200, 200);
